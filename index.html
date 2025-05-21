@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix 클론</title>
+    <link rel="stylesheet" href="netflix.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="netflix logo" />
+        <div class="header-right">
+          <select aria-label="언어 선택">
+            <option>한국어</option>
+            <option>English</option>
+          </select>
+          <button class="login-btn">로그인</button>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+      <div class="main">
+        <h1>
+          영화, 시리즈 등을 <br />
+          무제한으로
+        </h1>
+        <p>5,500원으로 시작하세요. 멤버십은 언제든지 해지 가능합니다.</p>
+        <div class="main-page">
+          <p>
+            시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일
+            주소를 입력하세요.
+          </p>
+        </div>
+        <form class="email-form">
+          <input type="email" name="email" placeholder="이메일 주소" />
+          <button type="submit" class="login-button">시작하기 ></button>
+        </form>
+      </div>
+    </section>
+
+      <!-- 곡선 이미지 -->
+      <div class="top-curve"></div>
+
+      <!-- 가격 안내 박스 전체 -->
+      <div class="price-wrapper">
+        <div class="price-inner">
+          <!-- 팝콘만 따로 -->
+          <div class="popcorn-icon">
+            <img src="img/icon_01.png" alt="팝콘" />
+        </div>
+      
+          <!-- 텍스트 박스만 따로 -->
+          <div class="price-box">
+            <div class="price-text">
+              <p class="title">
+                7,000원이면 만날 수 있는 넷플릭스.
+              </p>
+              <p class="desc">가장 경제적인 광고형 멤버십을 이용해 보세요.</p>
+            </div>
+            <button class="cta-btn">
+              자세히 알아보기
+              <i class="fa-solid fa-chevron-right"></i> <!-- 아이콘 추가 -->
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="now-trending">
+        <h2>지금 뜨는 콘텐츠</h2>
+
+        <div class="carousel">
+          <div class="slide">
+            <span class="number">1</span>
+            <img src="img/show1.png" alt="작은 이미지">
+          </div>
+
+          <div class="slide">
+            <span class="number">2</span>
+            <img src="img/show2.png" alt="작은 이미지">
+          </div>
+
+          <div class="slide">
+            <span class="number">3</span>
+            <img src="img/show3.png" alt="작은 이미지">
+          </div>
+
+          <div class="slide">
+            <span class="number">4</span>
+            <img src="img/show4.png" alt="작은 이미지">
+          </div>
+
+          <div class="slide">
+            <span class="number">5</span>
+            <img src="img/show5.png" alt="작은 이미지">
+          </div>
+        </div>
+      </div>
+      
+        <div class="four-box">
+            <h1>가입해야 하는 또 다른 이유</h1>
+          
+            <!-- Features Section -->
+            <section class="features-section">
+            <div class="grid-boxes">
+              <div class="info-box">
+                <p class="title">TV로 즐기세요</p>
+                <p class="sub">스마트 TV, PlayStation, Xbox, Chromecast, Apple TV,<br>블루레이 플레이어 등 다양한 디바이스에서 시청하세요.</p>
+                <img src="img/icon_02.png" alt="작은 이미지">
+              </div>
+          
+              <div class="info-box">
+                <p class="title">즐겨 보는 콘텐츠를 저장해 오프라인으로 시청하세요</p>
+                <p class="sub">간편하게 저장하고 빈틈없이 즐겨보세요.</p>
+                <img src="img/icon_03.png" alt="다운로드 아이콘">
+              </div>
+          
+              <div class="info-box">
+                <p class="title">다양한 디바이스로 시청하세요</p>
+                <p class="sub">각종 영화와 시리즈를 스마트폰, 태블릿, 노트북, TV에서 무제한으로 스트리밍하세요.</p>
+                <img src="img/icon_04.png" alt="디바이스 아이콘">
+              </div>
+          
+              <div class="info-box">
+                <p class="title">어린이 전용 프로필을 만들어 보세요</p>
+                <p class="sub">자기만의 공간에서 좋아하는 캐릭터와 즐기는 신나는 모험. 자녀에게 이 특별한 경험을 선물하세요. 넷플릭스 회원이라면 무료입니다.</p>
+                <img src="img/icon_05.png" alt="어린이 아이콘">
+              </div>
+            </div>
+          </div>
+        </section>
+
+          <!-- FAQ Section -->
+          <section class="faq-section">
+            <h2>자주 묻는 질문</h2>
+          
+            <div class="faq-item">
+              <button class="faq-question">넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요?</button>
+              <div class="faq-answer">넷플릭스에는 다양한 영화, 시리즈, 다큐멘터리 등이 있습니다.</div>
+            </div>
+          
+            <div class="faq-item">
+              <button class="faq-question">넷플릭스란 무엇인가요?</button>
+              <div class="faq-answer">넷플릭스는 스트리밍 기반의 콘텐츠 제공 서비스입니다.</div>
+            </div>
+          
+            <div class="faq-item">
+              <button class="faq-question">넷플릭스 요금은 얼마인가요?</button>
+              <div class="faq-answer">요금제는 월 5,500원부터 시작하며, 다양한 멤버십이 있습니다.</div>
+            </div>
+          
+            <div class="faq-item">
+              <button class="faq-question">어디에서 시청할 수 있나요?</button>
+              <div class="faq-answer">스마트폰, 태블릿, TV 등 다양한 디바이스에서 시청할 수 있습니다.</div>
+            </div>
+          
+            <div class="faq-item">
+              <button class="faq-question">멤버십을 해지하려면 어떻게 하나요?</button>
+              <div class="faq-answer">계정 설정에서 언제든지 멤버십을 해지할 수 있습니다.</div>
+            </div>
+          
+            <div class="faq-item">
+              <button class="faq-question">아이들이 넷플릭스를 봐도 좋을까요?</button>
+              <div class="faq-answer">어린이 전용 프로필을 만들어 안전하게 이용할 수 있습니다.</div>
+            </div>
+          </div>
+        </section>
+          
+
+           <!-- Footer Section -->
+  <footer class="footer-section">
+            <div class="signup">
+              <p>시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
+              <div class="signup-form">
+                <input type="email" placeholder="이메일 주소" />
+                <button>시작하기 <span>&#9654;</span></button>
+              </div>
+            </div>
+          
+            <div class="contact">
+              <p>질문이 있으신가요? 문의 전화: <a href="tel:003083210161">00-308-321-0161 (수신자 부담)</a></p>
+            </div>
+          
+            <div class="footer-links">
+              <ul>
+                <li><a href="#">자주 묻는 질문</a></li>
+                <li><a href="#">고객 센터</a></li>
+                <li><a href="#">계정</a></li>
+                <li><a href="#">미디어 센터</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">투자 정보(IR)</a></li>
+                <li><a href="#">입사 정보</a></li>
+                <li><a href="#">넷플릭스 지원 디바이스</a></li>
+                <li><a href="#">이용 약관</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">개인정보 처리방침</a></li>
+                <li><a href="#">쿠키 설정</a></li>
+                <li><a href="#">회사 정보</a></li>
+                <li><a href="#">문의하기</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">속도 테스트</a></li>
+                <li><a href="#">법적 고지</a></li>
+                <li><a href="#">오직 넷플릭스에서</a></li>
+              </ul>
+            </div>
+          </footer>
+          
+          <div class="footer-legal">
+            <div class="language-selector">
+              <button>
+                🌐 한국어 ▼
+              </button>
+            </div>
+          
+            <div class="company-info">
+              <p>넷플릭스 대한민국</p>
+          
+              <p>
+                넷플릭스서비시스코리아 유한회사 통신판매업신고번호: 제2018-서울종로-0426호<br />
+                전화번호: 00-308-321-0161 (수신자 부담)<br />
+                대표: 레지널드 숀 톰프슨<br />
+                이메일 주소: <a href="mailto:korea@netflix.com">korea@netflix.com</a><br />
+                주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161<br />
+                사업자등록번호: 165-87-00119<br />
+                클라우드 호스팅: Amazon Web Services Inc.<br />
+                <a href="#">공정거래위원회 웹사이트</a>
+              </p>
+          
+              <p class="recaptcha">
+                이 페이지는 Google reCAPTCHA의 보호를 받아 사용자가 로봇이 아님을 확인합니다. 
+                <a href="#">자세히 알아보기.</a>
+              </p>
+            </div>
+          </div>
+          <script src="faq.js"></script>
+  </body>
+</html>
